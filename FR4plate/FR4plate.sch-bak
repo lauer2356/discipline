@@ -1,0 +1,53 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C1
+U 1 1 5EA4B7FA
+P 3500 2300
+F 0 "C1" H 3615 2346 50  0000 L CNN
+F 1 "C" H 3615 2255 50  0000 L CNN
+F 2 "" H 3538 2150 50  0001 C CNN
+F 3 "~" H 3500 2300 50  0001 C CNN
+	1    3500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EA4BF51
+P 3500 1900
+F 0 "#PWR0101" H 3500 1650 50  0001 C CNN
+F 1 "GND" H 3505 1727 50  0000 C CNN
+F 2 "" H 3500 1900 50  0001 C CNN
+F 3 "" H 3500 1900 50  0001 C CNN
+	1    3500 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EA4CCAC
+P 3500 2700
+F 0 "#PWR0102" H 3500 2450 50  0001 C CNN
+F 1 "GND" H 3505 2527 50  0000 C CNN
+F 2 "" H 3500 2700 50  0001 C CNN
+F 3 "" H 3500 2700 50  0001 C CNN
+	1    3500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 2150 3500 1900
+Wire Wire Line
+	3500 2450 3500 2700
+$EndSCHEMATC
